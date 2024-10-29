@@ -5,6 +5,7 @@ Just to keep things clean i made a hidden `.notSus` folder. In the case that thi
 
 The example here uses a very simple bash script that just echoes two lines to the terminal, but given the fact that you're able to basically host and pull any file to execute, you are able to do much more complicated things by modifying the contents of the `hosted_payload.sh` file.
 
+Unfortunately you can't really use environment variables (to my knowledge) for arduino programs so guess we're exposing the attacker's IP address. You would probably attack with an expendable virtual machine address though.
 
 ### Usage
 1) Copy the `server/` directory to the attacker machine
