@@ -1,5 +1,5 @@
 ## QuickSetup.ino
-Like your home vim setup too much? Worry not!! This payload will get you ready to code anytime, anywhere (*on macs only for now)!!
+Sets up a temporary directory for you to work in when you plug in the rubber ducky and starts a background process to detect the removal of the USB. Once removed, a cleanup script will be run to send all files in the temporary directory to your machine via netcat, and then remove the temp working directory
 
 - would try windows or other machines but i cant really test since i don't got one rip
 
